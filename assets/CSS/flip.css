@@ -1,0 +1,166 @@
+﻿
+#Trans {
+	height:900px;
+
+}
+
+.container {
+	width: 64px; height: 80px;
+	-webkit-perspective: 1000;
+    -ms-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+
+}
+
+.card {
+	width: 64px; height: 80px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+    -ms-transform-style: preserve-3d;
+	-ms-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+	-moz-transition: 0.5s;
+    transform-style: preserve-3d;
+	transition: 0.5s;
+    /*box-shadow: 7px 7px 5px #888888;*/
+    
+}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);	
+        -ms-transform: rotateY(180deg);	
+        -moz-transform: rotateY(180deg);	
+        transform: rotateY(180deg);
+
+	}
+
+.face {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.one {
+	float: left; position:relative;  
+	padding-left:10px;
+}   
+
+
+	.one .front {
+    width: 64px; height: 80px; 
+}
+	.one .back {
+		width: 64px; height: 80px; 
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #000000; 
+	}
+	
+
+	
+.two {
+	float: left; position:relative; 
+	padding-left:40px;
+}
+	.two .front {
+		
+	}
+	.two .back {
+		width: 64px; height: 80px; 
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #000000; 
+	}
+	
+.three {
+	float: left; position:relative; 
+	padding-left:100px;
+}
+	.three .front {
+		
+	}
+	.three .back {
+		width: 64px; height: 80px;
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #000000; 
+	}
+		
+.four {
+	float: left; position:relative;
+	padding-left:80px;
+}
+	.four .front {
+		
+	}
+	.four .back {
+		width: 64px; height: 80px; 
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #000000; 
+	}
+
+.five {
+    float: left; position:relative; 
+	padding-left:60px;
+}
+    .five .front {
+		
+    }
+    .five .back {
+	    width: 64px; height: 80px; 
+	    -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+	    background: #000000; 
+    }
+
+.six {
+float: left; position:relative; 
+padding-left:80px;
+}
+    .six .front {
+		
+    }
+    .six .back {
+	    width: 64px; height: 80px; 
+	    -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+	    background: #000000; 
+    }
+
+.seven {
+float: left; position:relative; 
+padding-left:80px;
+}
+    .seven .front {
+		
+    }
+    .seven .back {
+	    width: 64px; height: 80px; 
+	    -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+	    background: #000000; 
+    }
+		
+.front {
+	z-index: 10;
+}
+.container:hover .front {
+	z-index: 0;
+} 
