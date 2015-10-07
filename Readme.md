@@ -1,4 +1,4 @@
-laptopdoc.ie V 1.0
+laptopdoc.ie V1.0
 ===============
 Year: 2009
 
