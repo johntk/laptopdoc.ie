@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>laptopdoc.ie-Locate Us</title>
+<style type="text/css">
+<!--
+
+-->
+</style>
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+<!-- Flashing image settings for heading image -->
+// Comma separated list of images to rotate
+var imgs = new Array('images/toppage1.jpg','images/toppage2.jpg');
+// delay in milliseconds between image swaps 1000 = 1 second
+var delay = 5000;
+var counter = 0;
+
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+
+//-->
+</script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA4J_m8tkLWYRqoxSrviDNABSFmDgrdsd5mVW3H-yXJp8r7tT0bBRwIHcB5ffHim8HHDqJtRLhR-fa5g"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+		var point = new GLatLng(53.2992, -6.2857);
+        map.setCenter(point, 15);
+		var marker = new GMarker(point);
+		map.addOverlay(marker);
+        map.setUIToDefault();
+		GEvent.addListener(marker, "click", function()
+		{marker.openInfoWindowHtml('<b>LaptopDoc</b><br/>Dodderdale<br/>Rathfarnham<br/>Dublin 14');});
+      }
+    }
+
+    </script>
+<link href="CSS Styles/Links.css" rel="stylesheet" type="text/css" />
+</head><body onload="initialize();preloadImgs();randomImages()"onunload="GUnload()"bgcolor="#e6e6de" >
+
+
+<!-- (First tabel) -->
+<!--top menu with flashing txt -->
+<table align="center" width="950" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td height="" colspan="17"><img src="Images/toppage1.jpg" name="rotator" width="100%" height="140" id="rotator"  /></td>
+  </tr>
+  <!--top menu with flashing txt end-->
+  <td height="3"></td>
+    <!-- top menu -->
+    <tr>
+    <td height="36"  width="9" colspan="">&nbsp;</td>
+    <td width="205" valign="bottom"  height="51" rowspan="2" ><iframe src="http://www.facebook.com/plugins/likebox.php?id=148125526831&amp;width=205&amp;connections=0&amp;stream=false&amp;header=true&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:205px; height:62px;" allowtransparency="true"></iframe></td>
+    <td  width="101" class="centerbutton" ></td><td width="3"  valign="top"><img src="Images/devide.jpg" /></td>
+    <td width="101" height=""   align="center" class="maintxtred"  style=  "background: url(images/topButton1.gif) repeat-x " onclick="window.location.href='index.html'" onmouseover="this.style.background='url(images/topButton2.gif) repeat-x  top'" onmouseout="this.style.background='url(images/topButton1.gif) repeat-x  top'" >HOME</td><td width="3" valign="top"><img src="Images/devide.jpg" width="3" height="36" /></td>
+    
+    <td width="101" height="30"   align="center" class="maintxtred"  style=  "background: url(images/topButton1.gif) repeat-x " onclick="window.location.href='services.html'" onmouseover="this.style.background='url(images/topButton2.gif) repeat-x top'" onmouseout="this.style.background='url(images/topButton1.gif) repeat-x  top'" >SERVICES</td><td width="3" valign="top"><img src="Images/devide.jpg" width="3" height="36" /></td>   
+    <td width="101" height="30"   align="center" class="maintxtred"  style=  "background: url(images/topButton1.gif) repeat-x " onclick="window.location.href='about us.html'" onmouseover="this.style.background='url(images/topButton2.gif) repeat-x  top'" onmouseout="this.style.background='url(images/topButton1.gif) repeat-x  top'" >RATES</td><td width="3" valign="top"><img src="Images/devide.jpg" width="3" height="36" /></td>    
+    <td width="101" height="30"   align="center" class="maintxtred"  style=  "background: url(images/topButton1.gif) repeat-x " onclick="window.location.href='contact us.html'" onmouseover="this.style.background='url(images/topButton2.gif) repeat-x  top'" onmouseout="this.style.background='url(images/topButton1.gif) repeat-x  top'" >CONTACT US</td><td width="3" valign="top"><img src="Images/devide.jpg" width="3" height="36" /></td> 
+    <td width="99" height="30"   align="center" class="maintxtred"  style=  "background: url(images/topButton2.gif) repeat-x "  >LOCATE US</td><td width="3" valign="top" ><img src="Images/devide.jpg" width="3" height="36" /></td>   
+    <td width="110"   class="centerbutton" >    
+  </tr>
+  <tr>
+    <td width="7" valign="top">&nbsp;</td>
+    <td colspan="13" style="border-bottom: solid 10px #283991;"></td>
+  </tr>
+</table>
+<!-- top menu end-->
+
+<!-- (First tabel end) -->
+
+<!-- (Second Table) (with 3 tables inside) containing the: side menu, welcome note, technican image, scrolling image and main txt  -->
+<table width="950" height="" border="0" align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td width="215" height="" rowspan="2" valign="top">
+    
+    <table width="214" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td width="9" height="" rowspan="13">&nbsp;</td>
+        
+        <!-- side menu buttons -->
+        
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col1=open#CollapsiblePanel1'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Repair </td>
+        <td width="12" rowspan="">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col2=open#CollapsiblePanel2'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Upgrade</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col3=open#CollapsiblePanel3'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Xbox, iPod, PS3</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col4=open#CollapsiblePanel4'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Virus Removal</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col5=open#CollapsiblePanel5'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Networking</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col6=open#CollapsiblePanel6'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Data Recovery</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col7=open#CollapsiblePanel7'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >BroadBand</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col8=open#CollapsiblePanel8'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Web Design</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col9=open#CollapsiblePanel9'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >Macintosh</td>
+      </tr>
+      <tr>
+        <td width="180" height="30"   align="center" class="maintxtred"  style=  "background: url(images/sidebutton1.jpg) " onclick="window.location.href='services.html?col10=open#CollapsiblePanel10'" onmouseover="this.style.background='url(images/sidebutton2.jpg)'" onmouseout="this.style.background='url(images/sidebutton1.jpg)'"  >OS Repair</td>
+      </tr>
+      <tr>
+        <td height="10"></td>
+      </tr>
+      <tr>
+       <td width="180" height="65"   align="center" class="maintxtred"  style=  "background: url(images/button1.jpg) " onclick="window.location.href='free quote.html'" onmouseover="this.style.background='url(images/button2.jpg)'" onmouseout="this.style.background='url(images/button1.jpg)'"  >Free Online<br />
+          Quote </td>
+      </tr>
+      <tr>
+        <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="100">&nbsp;</td>
+        <td height="100" width="180"  align="center"  valign="middle" style= "background: no-repeat url(Images/Times.jpg) "><span class="maintxtred2"><br />
+</span><span class="maintxtred">Open 7 days<br />
+<br />
+         
+        <br />
+        08:00 - 21:00</span><span class="maintxtred2"><br />
+           <br />
+           <br />
+           </span>
+           </td>
+        <td>&nbsp;</td>
+        <td width="13">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="2"></td>
+      </tr>
+    </table></td>
+    <!-- side menu buttons end-->
+    
+    <!-- side menu end-->
+    <td width="735" valign="top">
+    
+    
+ 
+   
+     <!-- google map config -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" height="">
+      <tr>
+      
+        <td height="444" colspan="2" valign="top" > 
+        
+          <div align="justify"><span class="Menutxtsmall"><b>Map:</b></span>&nbsp; <span class="largered"><b>LaptopDoc</b></span> <span class="Menutxtsmall"><b>is located Just off Rathfarnham village main street</b>.<br />
+            </span>
+          </div>
+        </div>
+     <div id="map_canvas" style="border:15px solid #283991; height: 400px" >Loading map...</div>
+  
+  </td>
+        
+              </tr>
+      </table>
+    </td>
+  </tr>
+</table><br />
+ <!-- second table end -->
+
+<!-- (Third table) conating computer manufater logos -->
+<table align="center" width="950" border="0" cellpading="0" cellspacing="0">
+  <tr>
+    <td height="82" style="border: solid 2px #283991;" ><img src="Images/logo.jpg"td>    </td>
+  </tr>
+</table><br />
+
+
+<!-- (Fourth table) containg menu links and copright notice -->
+<table width="950" border="0" align="center"cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="223" rowspan="2">&nbsp;</td>
+    <td width="504" align="center" ><a href="Index.html" class="link3" onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'" >Home</a> · <a href="Services.html" class="link3" onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'"  >Services</a> · <a href="About Us.html"class="link3" onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'" >About Us</a> · <a href="Contact Us.html"class="link3"onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'"  >Contact Us</a> · <a href="Locate Us.html"class="link3"onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'"  >Locate Us</a></td>
+    <td width="223" rowspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><br style="line-height:12px" />
+    <span class="smallblack">© Copyright 2010 LaptopDoc.ie</span></td>
+  </tr>
+</table>
+</body>
+</html>
