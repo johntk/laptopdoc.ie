@@ -1,0 +1,122 @@
+@charset "utf-8";
+.largered {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: normal;
+	color: #fd0000;
+}
+.greytxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666;
+}
+.maintxtred {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFF;
+	cursor:hand;
+	cursor:pointer;	
+}
+		
+.Menutxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+.topmenuleft {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+a:active, a:focus {
+outline: 0;
+}
+.centerbutton {
+	background-image: url(../Images/BG.jpg);
+	background-repeat: repeat-x;
+    
+
+}
+.sidebutton {
+	background-image: url(../Images/sidebutton.jpg);
+	background-repeat: no-repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #01cefe;
+
+}
+.Heading {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color: #01cefe;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+a:hover, a:active, {
+	color: #01cefe;
+
+}
+a.link1 {
+	color: #01cefe;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+a.link1:hover {
+	color: #fd0000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	text-decoration:underline;
+}
+a.link2 {
+	color: #01cefe;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+a.link2:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-decoration:underline;
+}
+a.link3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #000;
+}
+a.link3:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-decoration:underline;
+	color: #000;
+	
+}.maintxtredbig {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #fd0000;
+}
+.Menutxtsmall {
+	font-family: "Arial Black";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 900;
+	color: #000;
+}
