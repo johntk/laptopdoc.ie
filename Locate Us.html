@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>laptopdoc.ie-Locate Us</title>
+<style type="text/css">
+<!--
+
+-->
+</style>
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+<!-- Flashing image settings for heading image -->
+// Comma separated list of images to rotate
+var imgs = new Array('images/toppage1.jpg','images/toppage2.jpg');
+// delay in milliseconds between image swaps 1000 = 1 second
+var delay = 5000;
+var counter = 0;
+
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+
+//-->
+</script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA4J_m8tkLWYRqoxSrviDNABSFmDgrdsd5mVW3H-yXJp8r7tT0bBRwIHcB5ffHim8HHDqJtRLhR-fa5g"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+		var point = new GLatLng(53.2992, -6.2857);
+        map.setCenter(point, 15);
+		var marker = new GMarker(point);
+		map.addOverlay(marker);
+        map.setUIToDefault();
+		GEvent.addListener(marker, "click", function()
+		{marker.openInfoWindowHtml('<b>LaptopDoc</b><br/>Dodderdale<br/>Rathfarnham<br/>Dublin 14');});
+      }
+    }
+
+    </script>
+<link href="CSS Styles/Links.css" rel="stylesheet" type="text/css" />
+</head><body onload="initialize();preloadImgs();randomImages()"onunload="GUnload()">
+
+
+<!-- (First tabel) -->
+<!--top menu with flashing txt -->
+<table align="center" width="950" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="112" colspan="11"><img src="Images/toppage1.jpg" name="rotator" width="100%" height="140" id="rotator" /><br />
+</td>
+  </tr>
+  <!--top menu with flashing txt end-->
+  
+    <!-- top menu -->
+  <tr>
+    <td height="51" colspan="3">&nbsp;</td>
+    <td width="212" valign="bottom" class="topmenuleft" height="51" rowspan="2" ><img src="Images/services.gif"  /></td>
+    <td width="62" valign="top" class="centerbutton">&nbsp;</td>
+    
+    <td onclick="window.location.href='Index.html'" width="132" valign="top" class="topbutton" align="center" style="cursor:hand; cursor:pointer;"  onMouseOver="this.style.color='#fd0000'" onMouseOut="this.style.color = '#01cefe'"><br />&nbsp;&nbsp;Home</a>
+    </td>
+    
+    <td onclick="window.location.href='Services.html'" width="132" valign="top" class="topbutton" align="center" style="cursor:hand; cursor:pointer;"  onMouseOver="this.style.color='#fd0000'" onMouseOut="this.style.color = '#01cefe'"><br />&nbsp;Services</td>
+    
+    <td onclick="window.location.href='About Us.html'" width="132" valign="top" class="topbutton" align="center" style="cursor:hand; cursor:pointer;"  onMouseOver="this.style.color='#fd0000'" onMouseOut="this.style.color = '#01cefe'"><br />&nbsp;About Us</td>
+    
+    <td onclick="window.location.href='Contact Us.html'" width="132" valign="top" class="topbutton" align="center" style="cursor:hand; cursor:pointer;"  onMouseOver="this.style.color='#fd0000'" onMouseOut="this.style.color = '#01cefe'"><br />&nbsp;Contact Us</td>
+    
+    <td onclick="window.location.href='Locate Us.html'" width="132" valign="top" class="topbuttonactive" align="center" style="cursor:hand; cursor:pointer;" ><br />&nbsp;Locate Us</td>
+    
+    <td width="28" rowspan="2" class="topmenuright" >&nbsp;</td>
+  </tr>
+  <tr>
+    
+    
+    <td width="10" valign="top">&nbsp;</td>
+    <td width="1"></td>
+  </tr>
+</table>
+<!-- top menu end-->
+
+<!-- (First tabel end) -->
+
+<!-- (Second Table) (with 3 tables inside) containing the: side menu, welcome note, technican image, scrolling image and main txt  -->
+<table width="950" height="" border="0" align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td width="215" height="" rowspan="2" valign="top">
+    
+    <table width="214" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td width="10" height="" rowspan="13">&nbsp;</td>
+        
+        <!-- side menu buttons -->
+        
+        <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col1=open#CollapsiblePanel1'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Repair
+        </td>
+        <td width="13" rowspan="13">&nbsp;</td>
+       </tr>
+      <tr>
+         <td width="180" height="30"  style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col2=open#CollapsiblePanel2'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Upgrade</a></td>
+      </tr>
+      <tr>
+         <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col3=open#CollapsiblePanel3'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Recycle</a></td>
+      </tr>
+      <tr>
+         <td width="180" height="30"  style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col4=open#CollapsiblePanel4'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Virus Removal</a></td>
+      </tr>
+      <tr>
+         <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col5=open#CollapsiblePanel5'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Networking</a></td>
+      </tr>
+      <tr>
+         <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col6=open#CollapsiblePanel6'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Data Recovery</a></td>
+      </tr>
+      <tr>
+         <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col7=open#CollapsiblePanel7'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >BroadBand</a></td>
+      </tr>
+      <tr>
+         <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col8=open#CollapsiblePanel8'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Web Design</a></td>
+      </tr>
+      <tr>
+        <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col9=open#CollapsiblePanel9'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Macintosh</a></td>
+      </tr>
+      <tr>
+          <td width="180" height="30" style="cursor:hand; cursor:pointer; " class="sidebutton" align="center" onclick="window.location.href='services.html?col10=open#CollapsiblePanel10'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >OS Repair</a></td>
+      </tr>
+      <tr>
+        <td height="10"></td>
+      </tr>
+      <tr>
+        <td width="180" height="65"  style="cursor:hand; cursor:pointer; " class="quote" align="center" onclick="window.location.href='Free Quote.html'" onMouseOver="this.style.color='#fd0000'"  onMouseOut="this.style.color = '#01cefe'" >Free Online<br />
+           Quote
+         </a></td>
+      </tr>
+      <tr>
+        <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="100">&nbsp;</td>
+        <td height="100"><img src="Images/Times.gif" width="180" height="100" /></td>
+        <td>&nbsp;</td>
+        <td width="11">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="2"></td>
+      </tr>
+    </table></td>
+    <!-- side menu buttons end-->
+    
+    <!-- side menu end-->
+    <td width="735" valign="top">
+    
+    
+    
+   <!-- home link and page -->
+    <div><a href="Index.html" onMouseOver="this.style.color='#fd0000'" class="link2" onMouseOut="this.style.color = '#01cefe'">Home</a> <span class="smallblack"><</span> <span class="maintxtred">Locate Us</span><br />
+    </div>
+   
+     <!-- google map config -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" height="">
+      <tr>
+      
+        <td height="444" colspan="2" valign="top" > 
+        
+          <div align="justify"><span class="Menutxtsmall"><b>Map:</b></span>&nbsp; <span class="largered"><b>LaptopDoc</b></span> <span class="Menutxtsmall"><b>is located Just off Rathfarnham village main street</b>.<br />
+            </span>
+          </div>
+        </div>
+     <div id="map_canvas" style="border:1px solid lightblue; width:100% ; height: 400px" >Loading map...</div>
+  
+  </td>
+        
+        <td width="10">&nbsp;</td>
+      </tr>
+      </table>
+    </td>
+  </tr>
+</table><br />
+ <!-- second table end -->
+
+<!-- (Third table) conating computer manufater logos -->
+<table align="center" width="950" border="0" cellpading="0" cellspacing="0">
+  <tr>
+    <td height="82"><img src="Images/logo.jpg"td>    </td>
+  </tr>
+</table><br />
+
+
+<!-- (Fourth table) containg menu links and copright notice -->
+<table width="950" border="0" align="center"cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="223" rowspan="2">&nbsp;</td>
+    <td width="504" align="center" ><a href="Index.html" class="link3" onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'" >Home</a> · <a href="Services.html" class="link3" onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'"  >Services</a> · <a href="About Us.html"class="link3" onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'" >About Us</a> · <a href="Contact Us.html"class="link3"onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'"  >Contact Us</a> · <a href="Locate Us.html"class="link3"onMouseOver="this.style.color='#999'" onMouseOut="this.style.color = '#000'"  >Locate Us</a></td>
+    <td width="223" rowspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+    <span class="smallblack"><br style="line-height:12px" />© Copyright 2009 LaptopDoc.ie</td>
+  </tr>
+</table>
+</body>
+</html>
