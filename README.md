@@ -1,5 +1,7 @@
-laptopdoc.ie_2012
+laptopdoc.ie
 =================
+
+Year: 2012
 
 Final version of laptopdoc.ie
 
