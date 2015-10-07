@@ -1,5 +1,6 @@
-laptopdoc.ie
+laptopdoc.ie V 1.0
 ===============
+Year: 2009
 
 This was my first ever attempt at  a website after reading a book and learning about 
 table tags.
